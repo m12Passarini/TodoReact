@@ -1,0 +1,30 @@
+.todo {
+    flex: 1;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    word-break: break-all;
+    line-height: 1.2;
+    transition: color 0.3s;
+    padding: 15px 15px 17px 15px;
+}
+
+.todo.checked {
+    text-decoration: line-through;
+    color: #b2bec360;
+}
+
+.remove {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #747bff;
+    outline: none;
+    width: 50px;
+}
+
+ul.list li {
+    display: flex;
+    border-top: 1px solid #5c63dd;
+   /*  border-bottom: 1px solid #5c63dd; */
+}
